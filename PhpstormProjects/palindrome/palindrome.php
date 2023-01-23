@@ -13,8 +13,9 @@ for($nb1=1; $nb1<999; $nb1++) {
     $resultatinverse = strrev($resultatstring);
     //var_dump($resultatinverse);
 
+    //Vérification et affichage si palindrome
     if($resultatstring == $resultatinverse) {
-        echo $resultatstring . ' est le plus grand palindrome obtenu';
+        echo $resultatstring . ' est le plus grand palindrome obtenu'; //Affiche : 66866 est le plus grand palindrome obtenu
     }
 }
 
